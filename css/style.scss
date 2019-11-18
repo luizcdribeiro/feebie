@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap');
+
+@import 'helpers/reset';
+@import 'menu';
+
+
+body {
+  font-family: 'Work Sans', sans-serif !important;
+  color: rgba(43, 41, 45, 1.0);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}

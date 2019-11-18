@@ -1,0 +1,72 @@
+header {
+  background-color: #F3C6BD;
+  padding-top: 39px;
+}
+.menu__nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-bottom: 76px;
+}
+
+.marca__logo {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.logo {
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 1px 3px #0000, 
+              0 4px 6px #000, 
+              0 1px 0 #ffffff;
+  margin-right: 15px;
+  img {
+    padding: 10px 13px 10px 14px;
+  }
+}
+
+.marca__titulo {
+  font-size: 20px;
+  line-height: 25px;
+  text-align: left;
+  font-weight: bold;
+  color: rgba(43, 41, 45, 1.0);
+
+}
+
+.marca__subtitulo {
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(43, 41, 45, 0.6);
+  text-align: left;
+}
+
+.menu__lista {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  ul {
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    li {
+      margin-right: 15px;
+      a {
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: right;
+        color: rgba(43, 41, 45, 1);
+        &:hover {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+.ativo {
+  font-weight: bold;
+}
